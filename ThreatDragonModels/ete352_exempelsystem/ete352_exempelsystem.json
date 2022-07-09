@@ -777,14 +777,7 @@
             },
             "id": "60903e10-d3b8-4137-b54a-7a7207c0b72f",
             "labels": [
-              {
-                "position": 0.5,
-                "attrs": {
-                  "label": {
-                    "text": "Autentiserar"
-                  }
-                }
-              }
+              "Autentiserar"
             ],
             "source": {
               "cell": "8438e351-6a23-417a-b64d-7af55bf10670"
@@ -841,6 +834,82 @@
               "cell": "8884e768-7353-4e0a-ac85-8779e5c912ae"
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "49ffe749-1b8a-4416-9179-34c4c30aa9e8",
+            "source": {
+              "x": 70,
+              "y": 340
+            },
+            "target": {
+              "x": 520,
+              "y": 270
+            }
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "43a44bd7-a6d4-49f0-9021-122870eee7ae",
+            "source": {
+              "x": 540,
+              "y": 400
+            },
+            "target": {
+              "x": 700,
+              "y": 410
+            }
           },
           {
             "position": {
@@ -943,8 +1012,8 @@
           },
           {
             "position": {
-              "x": 62,
-              "y": 358
+              "x": 72,
+              "y": 360
             },
             "size": {
               "width": 160,
