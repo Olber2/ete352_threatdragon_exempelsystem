@@ -112,12 +112,23 @@
             "id": "0227b179-35c2-42f9-ac39-3f0f2cc4ac58",
             "data": {
               "name": "Extern tjänst\n(Skatteverket)",
-              "description": "",
+              "description": "Skatteverket är en myndighet som kan utsättas av hot från främmande makt som sabotage. Eftersom verksamheten skickar kunddata till skatteverket kan detta spridas. Detta blir då ett konfidalitetproblem",
               "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": true,
               "reasonOutOfScope": "Externt",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "45af3ecf-ca7b-4a99-ba4d-15488bab4529",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "title": "Skatteverket",
+                  "type": "",
+                  "description": "Eftersom att skatteverket är en statlig myndighet kan de utsättas av sabotage från främmande makt. Eftersom företaget skickar kunddata till Skatteverket, skulle denna information kunna komma ut. Detta blir då det konfidalitetsfråga",
+                  "mitigation": "",
+                  "modelType": ""
+                }
+              ],
               "hasOpenThreats": false,
               "providesAuthentication": false
             }
@@ -960,48 +971,6 @@
             ]
           },
           {
-            "shape": "trust-broundary-curve",
-            "attrs": {
-              "line": {
-                "targetMarker": "",
-                "sourceMarker": ""
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "labels": [
-              ""
-            ],
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "dfe2817e-e79c-49f1-a37d-4cd406d1d272",
-            "source": {
-              "x": 290,
-              "y": 20
-            },
-            "target": {
-              "x": 360,
-              "y": 10
-            },
-            "vertices": [
-              {
-                "x": 310,
-                "y": 40
-              },
-              {
-                "x": 330,
-                "y": 40
-              }
-            ]
-          },
-          {
             "position": {
               "x": 89,
               "y": 168
@@ -1037,7 +1006,7 @@
           {
             "position": {
               "x": 560,
-              "y": 240
+              "y": 220
             },
             "size": {
               "width": 100,
@@ -1063,7 +1032,18 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "threats": [],
+              "threats": [
+                {
+                  "id": "7da893f4-aecc-42c2-b0fb-113e80f18d90",
+                  "status": "",
+                  "severity": "High",
+                  "title": "Överbelastning",
+                  "type": "",
+                  "description": "En överbelastning skulle kunna göra att företaget blir utfrysta helt ur sina egna system, detta blir då en åtkomstfråga ",
+                  "mitigation": "",
+                  "modelType": ""
+                }
+              ],
               "hasOpenThreats": false
             }
           },
